@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Korolev Medium", sans-serif;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 122px;
+  background: rgb(247, 154, 131);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  position: fixed;
+  z-index: 1;
+}
+.nav-logo {
+  left: 25px;
+  top: 15px;
+  position: absolute;
+}
+
+.nav-logo img {
+  width: 75px;
+  height: 75px;
+}
+.nav-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-products a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  background-color: transparent;
+  padding: 10px 15px;
+}
+.nav-right {
+  display: flex;
+  justify-content: c;
+  padding-left: 889px;
+}
+.nav-social {
+  width: 27px;
+  height: 26px;
+  display: flex;
+  gap: 4px;
+}
+.nav-social img {
+  display: flex;
+  width: 26px;
+  height: 26px;
+  align-items: flex-start;
+}
+.body-1 {
+  width: 100%;
+  height: 100vh;
+}
+.body-1 img {
+  width: 100%;
+  height: 100%;
+}
+.content-1 {
+  position: absolute;
+  top: 50%;
+  left: 9%;
+  color: white;
+  /* padding: 25px; */
+  margin: -136px 0px 0px 50px;
+}
+.content-1 h1 {
+  text-transform: uppercase;
+  font-weight: inherit;
+  margin-bottom: 32px;
+  font-size: 70px;
+  font-weight: 900;
+  /* font-family: 'korolev-rounded'; */
+  font-family: "Korolev Heavy", sans-serif;
+}
+.content-1 button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 35px;
+  color: white;
+  font-size: 25px;
+}
+.body-2 {
+  width: 100%;
+  height: 100vh;
+}
+.body-2 img {
+  width: 100%;
+  height: 100%;
+}
+.green2 {
+  border-radius: 100px;
+  border: 1px green;
+  color: rgb(255, 255, 255);
+  background: rgb(10 91 43 / 80%);
+  padding: 65px;
+  position: absolute;
+  color: white;
+  width: auto;
+  text-align: center;
+}
+.banner2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-2 button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 5px 50px;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+}
+
+
+
+
+
+
+.banner3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-3 {
+  width: 100%;
+  height: 100vh;
+}
+
+
+.body-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.green3 {
+  border-radius: 100px;
+  border: 1px green;
+  color: rgb(255, 255, 255);
+  background: rgb(10 91 43 / 80%);
+  padding: 65px;
+  position: absolute;
+  color: white;
+  width: auto;
+  text-align: center;
+}
+
+.content-3 button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 5px 50px;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+}
+.end {
+  display: flex;
+  justify-content: center;
+  background: #3e3e3e;
+  color: white;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+}
+
+.end1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.end1 ul {
+  display: flex;
+  gap: 50px;
+}
+.end1 ul li {
+  list-style: none;
+  margin: 15px;
+  font-size: 13px;
+}
+
+.end-both ul li {
+}
+.end2 p {
+  font-size: 13px;
+}
